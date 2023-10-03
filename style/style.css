@@ -50,6 +50,7 @@ h2 {
 .category {
     border-radius: 12px;
     color: white;
+    display: inline-block;
     font-size: 0.5rem;
     padding: 0.5rem;
 }
@@ -113,17 +114,16 @@ h2 {
 }
 
 .todo-list {
-    padding: 1.7rem 0 0 2.6rem;
+    padding: 1.7rem 0 1.7rem 2.6rem;
 }
 
 .todo-list li {
     list-style-type: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.todo-list section {
-    padding-bottom: 1.5rem;
-
+.todo-list section:not(:last-child) {
+    margin-bottom: 1.5rem;
 }
 
 .website {
