@@ -1,14 +1,27 @@
 * {
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 
 }
 
-.logo {
-    display: inline-block;
-    margin: 0.5rem 0 0.5rem 1rem;
+button {
+    all:unset;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 9.5rem 1rem 9.5rem;
+}
+
+header {
+    background-color: white;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -16,4 +29,103 @@ h1 {
     font-size: 2.5rem;
     font-weight: bold;
     vertical-align: 50%;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#add-section {
+    border: 1px solid #d3d3d3;
+    color: #d3d3d3;
+}
+
+#add-task {
+    background-color: #47ADF1;
+    color: white;
+}
+
+.category {
+    border-radius: 12px;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.5rem;
+}
+
+.done {
+    color: green;
+    border-color: green;
+}
+
+.editorial {
+    background-color: #47ADF1;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.not-done {
+    color: red;
+    border-color: red;
+}
+
+.options {
+    padding: 0.5rem 2.7rem;
+    border-bottom: 0.15rem solid #F6F8F9;
+}
+
+.options button{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    height: 25px;
+    padding: 0.4rem 0.5rem;
+    vertical-align: auto;
+}
+
+.q1-goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.sales {
+    background-color: #B0C926;
+}
+
+.status-icon {
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 16px;
+}
+
+.todo-list {
+    padding: 1.7rem 0 0 2.6rem;
+}
+
+.todo-list li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.todo-list section {
+    padding-bottom: 1.5rem;
+
+}
+
+.website {
+    background-color: #D863A1;
 }
